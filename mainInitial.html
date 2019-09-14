@@ -1,17 +1,35 @@
+<!-- src: main.html -->
 <!DOCTYPE html>
 <html>
     <head>
         <title>Title</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+        <link rel="stylesheet" href="mainInitial.css" />
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> 
     </head>
 
     <body>
-        <h3>Student:</h3>
-        <ul id="li"></ul>
-        <br />
-        <input id="submit" type="text" placeholder="Student Name"/>
-        <br />
-        <input type="button" value="Submit Student" onclick="run(document.getElementById('submit').value)"/>
-        <input type="button" value="Clear Storage" onclick="clearStorage()"/>
+        <section class="section">
+                <div class="container">
+                    <h3 class="title">Student:</h3>
+                    <ul id="li" class="subtitle"></ul>
+                </div>
+                <section class="section">
+                    <div class="container">
+                        <div class="columns">
+                            <div class="columns">
+                                <div class="column">
+                                    <input  class="input is-success" id="submit" type="text" placeholder="Student Name"/>
+                                </div>
+                                <div class="column">
+                                    <input class="button is-success" type="button" value="Submit Student" onclick="run(document.getElementById('submit').value)"/>
+                                </div>
+                            </div>
+                        </div>
+                        <input class="button is-warning" type="button" value="Clear Storage" onclick="clearStorage()"/>
+                    </div>
+                </section>
+            </section>
     </body>
     <script src="mainInitial.js"></script> 
 </html>
