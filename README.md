@@ -1,2 +1,2 @@
-# React-State-Hooks-for-Dummies-
-In this series of blogs, I will be trying to track back the evolution of React state and hooks in an attempt to break down and clearify the need of such complex concepts.
+# React-State-Hooks-for-Dummies
+Pieces of code used for use in ![a series](https://dev.to/mustafaanaskh99/react-state-for-dummies-how-was-it-before-react-fp3) of React articles.
